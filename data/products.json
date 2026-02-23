@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Pro 14",
+    "category": "Electronics",
+    "price": 1299.99,
+    "stock": 20
+  },
+  {
+    "id": 2,
+    "name": "Wireless Mouse",
+    "category": "Accessories",
+    "price": 29.99,
+    "stock": 100
+  },
+  {
+    "id": 3,
+    "name": "USB-C Dock",
+    "category": "Accessories",
+    "price": 89.5,
+    "stock": 45
+  }
+]

@@ -157,7 +157,7 @@ def get_db() -> Session:
         db.close()
 
 
-app = FastAPI(title="Product Order API", version="1.1.0")
+app = FastAPI(title="Product Order API", version="1.1.0", openapi_version="3.0.3")
 
 
 def decimal_to_float(value: Decimal) -> float:

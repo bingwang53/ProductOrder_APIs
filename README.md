@@ -71,6 +71,19 @@ python -m uvicorn main:app --reload
 Open:
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - Health/root: `http://127.0.0.1:8000/`
+- OpenAPI JSON: `http://127.0.0.1:8000/openapi.json`
+
+## View APIs Locally
+
+Use one of these URLs in your browser:
+
+- `http://127.0.0.1:8000/docs` (interactive Swagger)
+- `http://127.0.0.1:8000/redoc` (ReDoc docs)
+- `http://127.0.0.1:8000/openapi.json` (raw API schema)
+
+Important:
+- `127.0.0.0` is a network address and is not the correct local host URL for your app.
+- Use `127.0.0.1` or `localhost` instead.
 
 ## 3. Demo: Send Online Order from PHP
 
